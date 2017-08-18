@@ -1,4 +1,3 @@
-
 DELIMITER //
 CREATE DEFINER = `root`@`localhost` TRIGGER trg_name_before_insert_promotions
 BEFORE INSERT ON database_name.table_name
