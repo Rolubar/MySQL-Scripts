@@ -6,7 +6,7 @@ Model of storage procedure
 */
 CREATE PROCEDURE `sp_name`(IN parameter1 INT , IN parameter2 INT, OUT return1 INT)
 BEGIN
-DECLARE dateTimeNow DATETIME;
-SET dateTimeNow = NOW();
-SET customerID = LAST_INSERT_ID();
+  DECLARE dateTimeNow DATETIME;
+  SET dateTimeNow = NOW();
+  SET customerID = LAST_INSERT_ID();
 END
